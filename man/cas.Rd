@@ -1,8 +1,8 @@
 \name{rcas.ticket}
 \alias{rcas.ticket}
-\title{rcas.ticket}
+\title{Method for getting tickets from a Central Authentication Service (CAS Server)}
 \description{
-Prints 'Hello, world!'.
+This method allows authentication against a CAS Server and retrieve a ticket for a service. For that, you only have to do a call to a single method with the URL of the CAS server with the correct path, the user's credentials and the login URL of the service that you want to access.
 }
 \usage{
 rcas.ticket(cas.url, username, password, service.url )
