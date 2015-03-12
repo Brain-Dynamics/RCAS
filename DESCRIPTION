@@ -1,0 +1,13 @@
+Package: RCAS
+Type: Package
+Title: Tool for get services' tickets from a central Authentication Server (CAS)
+Version: 0.1
+Date: 2015-02-27
+Author: Brain Dynamics
+Depends: R (>= 3.0.0)
+Imports: httr (>= 0.6.1)
+Maintainer: Daniel Agredano <daniel.agredano@brain-dynamics.es>
+NeedsCompilation: yes
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
