@@ -1,4 +1,4 @@
-# RCAS ![](https://travis-ci.org/Brain-Dynamics/RCAS.svg?branch=master)
+# RCAS [![Build Status](https://travis-ci.org/Brain-Dynamics/RCAS.svg?branch=master)](https://travis-ci.org/Brain-Dynamics/RCAS)
 A R package for getting tickets from a Central Authentication Service (CAS Server)
 
 This package allows authentication against a CAS Server and retrieve a ticket for a service. For that, you only have to do a call to a single method with the URL of the CAS server with the correct path, the user's credentials and the login URL of the service that you want to access.
@@ -53,4 +53,4 @@ $result
 ~~~
 
 ### Development by Brain Dynamics 
-![](https://avatars1.githubusercontent.com/u/11419883?v=3&s=200)
+[![Brain Dynamics](https://avatars1.githubusercontent.com/u/11419883?v=3&s=200)](http://www.brain-dynamics.es)
