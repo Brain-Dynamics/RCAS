@@ -10,9 +10,12 @@ To use this package you only need the following dependencies.
 * R (>= 3.0.0)
 * httr (>= 0.6.1)
 
+You also need to have enable the REST Api of the CAS server to access the service. In the middle of this [link](http://jasig.github.io/cas/4.0.x/protocol/REST-Protocol.html) you can find cas server configuration to enable it.
+
 ## Compiling the project
 
 You don't need a special process to compile, just the usual R way to compile projects.
+
 
 ## How to use the RCAS project.
 
@@ -49,8 +52,16 @@ $ticket
 
 $result
 [1] TRUE
-
 ~~~
 
+## How to install
+For now, you can install it directly from GitHub using the devtool package following the next instructions.
+
+~~~R
+> install.packages("devtools")
+> devtools::install_github("Brain-Dynamics/RCAS")
+~~~
+
+
 ### Development by Brain Dynamics 
-[![Brain Dynamics](https://avatars1.githubusercontent.com/u/11419883?v=3&s=200)](http://www.brain-dynamics.es)
+[![Brain Dynamics](http://www.brain-dynamics.es/images/bdync.png)](http://www.brain-dynamics.es)
