@@ -1,1 +1,5 @@
 language: r
+notifications:
+  email:
+    - daniel.agredano@brain-dynamics.es
+    - domingo.lopez@brain-dynamics.es
