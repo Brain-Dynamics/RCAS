@@ -44,7 +44,7 @@ $error
 $result
 [1] FALSE
 
-> cas.ticket("https://localhost:8181/cas/v1/tickets", "userName", "password",
+> rcas.ticket("https://localhost:8181/cas/v1/tickets", "userName", "password",
 			"https://localhost:8181/service/login",
 			ignore.certificate = TRUE )
 $ticket
